@@ -7,7 +7,6 @@ from django.conf import settings
 MERCHANT_KEY=keys.MK
 import json
 from django.views.decorators.csrf import  csrf_exempt
-from PayTm import Checksum
 
 # Create your views here.
 def index(request):
